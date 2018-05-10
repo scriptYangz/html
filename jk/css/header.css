@@ -1,0 +1,208 @@
+/*头部*/
+
+.header {
+	height: 102px;
+	width: 100%;
+}
+
+.navbar-inverse {
+	background-color: white;
+	border-color: white;
+}
+
+.container {
+	height: 100%;
+}
+
+
+/*缩小按钮*/
+
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color: black;
+}
+
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+	background-color: white;
+}
+
+.navbar-toggle {
+	margin-top: 36px;
+}
+
+
+/*列表*/
+
+.nav>li>a {
+	display: inline-block;
+	line-height: 50px;
+}
+
+.nav-items li {
+	/*margin-left: 25px;*/
+	display: block;
+	height: 50px;
+	background-color: #313131;
+}
+
+.nav-items li:hover {
+	background-color: #00a1ff;
+	color: white;
+}
+
+.nav-items {
+	width: 100%;
+}
+
+.nav-items li a {
+	width: 100%;
+	height: 100%;
+}
+
+.navbar-nav>li>a {
+	padding-top: 0;
+	padding-bottom: 0;
+	display: block;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #00a1ff;
+	background-color: transparent;
+	border-color: #7ecef4;
+}
+
+.nav-items li a.active {
+	color: #00a1ff;
+	border-color: #7ecef4;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: white;
+}
+
+
+/*搜索框*/
+
+.tel {
+	display: none;
+}
+
+.search-box {
+	overflow: hidden;
+	width: 96%;
+	height: 48px;
+	margin-top: 27px;
+	border-width: 1px;
+	border-color: rgb(229, 229, 229);
+	border-style: solid;
+	background-color: rgb(255, 255, 255);
+	float: left;
+}
+
+.search-box .search-inp {
+	width: 157px;
+	width: 137px\9;
+	height: 48px;
+	line-height: 48px;
+	padding-left: 14px;
+	background-color: transparent;
+	border: none;
+	font-size: 13px;
+}
+
+.search-box .btn-search {
+	width: 51px;
+	height: 48px;
+	border: none;
+	background: url(../images/icon-search.png) no-repeat center;
+	text-align: center;
+	float: right;
+	cursor: pointer;
+}
+
+.search-box .search-inp::-webkit-input-placeholder {
+	/* WebKit browsers */
+	color: #bbbbbb;
+}
+
+.search-box .search-inp:-moz-placeholder {
+	/* Mozilla Firefox 4 to 18 */
+	color: #bbbbbb;
+}
+
+.search-box .search-inp::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #bbbbbb;
+}
+
+.search-box .search-inp:-ms-input-placeholder {
+	/* Internet Explorer 10+ */
+	color: #bbbbbb;
+}
+
+@media (min-width: 768px) {
+	/*导航栏列表*/
+	.nav-items {
+		float: left;
+	}
+	.nav-items li {
+		/*margin-left: 25px;*/
+		display: inline-block;
+		height: 104px;
+		line-height: 104px;
+		background-color: white;
+	}
+	.nav-items li:hover {
+		background-color: white;
+		color: #00a1ff;
+	}
+	.nav-items {
+		width: 75%;
+	}
+	.nav-items li:first-child {
+		margin-left: 42px;
+	}
+	.nav-items li a {
+		border: none;
+		font-size: 14px;
+		color: #666666;
+	}
+	.nav-items li a {
+		height: 20px;
+		padding-bottom: 10px;
+		border-bottom: 1px solid transparent;
+		font-size: 14px;
+		color: #666666;
+	}
+	.navbar-nav>li>a {
+		padding-top: 10px;
+		padding-bottom: 16px;
+		line-height: 0px;
+		display: inline-block;
+	}
+	.navbar-inverse .navbar-nav>li>a:hover {
+		color: #00a1ff;
+	}
+	/*咨询热线*/
+	.tel {
+		display: block;
+	}
+	/*搜索框*/
+	.search-box {
+		float: right;
+		width: 218px;
+	}
+}
+
+@media (min-width: 992px) {
+	.nav-items {
+		width: 58%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.nav-items {
+		width: 50%;
+	}
+}

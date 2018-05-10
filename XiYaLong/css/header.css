@@ -1,0 +1,251 @@
+.header,
+			.header-top,
+			.header-bottom {
+				width: 100%;
+			}
+			
+			.header {
+				background-color: gray;
+				height: 186px;
+			}
+			
+			.header-top {
+				height: 36px;
+				background-color: #eaeaea;
+			}
+			
+			.header-bottom {
+				height: 150px;
+				background-color: white;
+			}
+			
+			.header-bottom-container,
+			.header-top-container {
+				width: 1100px;
+				height: 100%;
+				margin: 0 auto;
+				position: relative;
+				font: 12px "微软雅黑";
+				color: #888888;
+			}
+			
+			.city {
+				display: inline-block;
+				width: 110px;
+				height: 100%;
+				vertical-align: middle;
+				position: relative;
+				padding-left: 8px;
+			}
+			
+			.city img {
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+			
+			.city span {
+				display: inline-block;
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				left: 28px;
+			}
+			
+			.city a {
+				font: 12px "微软雅黑";
+				color: #fb4747;
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				left: 62px;
+				text-decoration: none;
+			}
+			
+			.login {
+				display: inline-block;
+				width: 126px;
+				height: 36px;
+				display: inline-block;
+				font: 12px "微软雅黑";
+				color: #888888;
+				position: absolute;
+				right: 616px;
+				line-height: 36px;
+			}
+			
+			.login a {
+				color: #e46060;
+				text-decoration: none;
+			}
+			
+			.navlist {
+				display: inline-block;
+				position: absolute;
+				right: 0;
+				height: 100%;
+				line-height: 12px;
+				padding-left: 24px;
+			}
+			
+			.navlist div {
+				display: inline-block;
+				text-align: center;
+				width: 104px;
+				height: 12px;
+				border-right: solid 1px #bfbfbf;
+				position: relative;
+				top: 45%;
+				transform: translateY(-50%);
+			}
+			.navlist a{
+				text-decoration: none;
+				color: #888888;
+			}
+			.navlist span{
+				color: #d5d5d5;
+			}
+			
+			.navlist .sig,
+			.navlist .per{
+				width: 84px;
+			}
+			.navlist .inf{
+				border: none;
+			}
+			.nav-left{
+				width: 250px;
+				height: 100%;
+				display: inline-block;
+			}
+			.redicon{
+				display: inline-block;
+				background-color: #c22820;
+				width: 15px;
+				height: 15px;
+				border-radius:50px;
+				color: #FFFFFF!important;
+				font:8px "微软雅黑";
+			}
+			
+			.logo{
+				width: 100%;
+				height: 114px;
+				
+			}
+			.logo img{
+				width: 76px;
+				height: 80px;
+				padding-left:78px ;
+				padding-top: 14px;
+			}
+			.classify{
+				position: relative;
+				width: 100%;
+				height: 36px;
+				background-color: #626262;
+				font: 14px "微软雅黑";
+				
+			}
+			.classify p{
+				position: absolute;
+				left: 36px;
+				top: 50%;
+				transform: translateY(-50%);
+				color: white;	
+			}
+			.classify img{
+				position: absolute;
+				right: 18px;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+			.nav-right{
+				width: 850px;
+				height: 100%;
+				float: right;
+			}
+			.search{
+				width: 276px;
+				height: 38px;
+				background-color: #c22820;
+				position: absolute;
+				top: 40px;
+				right: 230px;
+			}
+			.search input{
+				border: none;
+				height: 34px;
+				width: 226px;
+				position: absolute;
+				left: 1px;
+				top: 1px;
+			}
+			.search img{
+				position: absolute;
+				right: 16px;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+			.search div{
+			background-color: #eeeeee;	
+			width: 56px;
+			height: 26px;
+			border-radius: 2px;
+			}
+			/*加入购物车*/
+			.car{
+				width: 216px;
+				height: 38px;
+				background-color: #c22820;
+				position: absolute;
+				top: 40px;
+				right: 0px;
+			}
+			.person,.add{
+				height: 20px;
+				
+			}
+			.car a{
+				color: white;
+				font:12px "微软雅黑";
+				text-decoration: none;
+			}
+			
+			.person{
+				width: 100px;
+				border-right:solid 1px white;
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				text-align: center;
+			}
+			.add{
+				width: 112px;
+				position: absolute;
+				right: 0;
+				top: 50%;
+				transform: translateY(-50%);
+				text-align: center;
+			}
+			.tab{
+				height: 38px;
+				font: 18px "微软雅黑";
+				position: absolute;
+				bottom: 0;
+			}
+			.tab1{
+				width: 88px;
+				height: 100%;
+				text-align: center;
+				line-height: 38px;
+				display: inline-block;
+			}
+			.tab a{
+				color: #666666;
+				text-decoration: none;
+			}
+			.tab a:hover{
+				color: #c22820;
+				text-decoration: none;
+			}

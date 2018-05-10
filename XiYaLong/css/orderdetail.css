@@ -1,0 +1,416 @@
+body {
+				margin: 0;
+				padding: 0;
+				position: relative;
+			}
+			
+			p {
+				margin: 0;
+				padding: 0;
+			}
+			
+			.clearfloat:after {
+				/*用内容填充*/
+				content: " ";
+				/*行内快元素*/
+				display: block;
+				/*定义高度*/
+				height: 0px;
+				line-height: 0px;
+				/*隐藏内容:不占原来的位置*/
+				/*display: none;*/
+				/*隐藏内容:占原来的位置*/
+				visibility: hidden;
+				clear: both;
+			}
+			
+			.main {
+				padding-bottom: 452px;
+			}
+			
+			.bread {
+				height: 44px;
+				width: 100%;
+				background-color: #f4f4f4;
+			}
+			
+			.bread-container {
+				width: 1100px;
+				margin: 0 auto;
+				color: #666666;
+				line-height: 44px;
+			}
+			
+			.bread-container a {
+				color: #666666;
+				text-decoration: none;
+			}
+			
+			.main-container {
+				width: 1100px;
+				margin: 0 auto;
+				/*position: relative;*/
+			}
+			
+			.order-state {
+				background-color: #fcf4f4;
+				height: 120px;
+				width: 100%;
+				border: solid 1px #ffa8a3;
+				margin-top: 40px;
+				position: relative;
+			}
+			
+			.state {
+				position: absolute;
+				left: 36px;
+				top: 30px;
+				color: #666666;
+				font:bold 14px "微软雅黑";
+			}
+			.state span{
+				font:14px "微软雅黑";
+				color: #c22820;
+			}
+			.att {
+				position: absolute;
+				left: 36px;
+				top: 70px;
+				font:12px "微软雅黑";
+				color: #666666;
+			}
+			
+			.gotopay {
+				color: white;
+				font: 12px "微软雅黑";
+				float: right;
+				margin-right: 36px;
+				margin-top: 42px;
+				position: relative;
+				width: 94px;
+				height: 34px;
+				background-color: #c22820;
+				border: solid 1px #e5e5e5;
+			}
+			
+			.but img {
+				position: absolute;
+				top: 50%;
+				left: 12px;
+				transform: translateY(-50%);
+			}
+			
+			.but span {
+				position: absolute;
+				top: 50%;
+				left: 34px;
+				transform: translateY(-50%);
+			}
+			
+			.order-inf {
+				margin-top: 40px;
+				width: 100%;
+				height: 340px;
+				border: solid 1px #e5e5e5;
+			}
+			
+			.order-inf .inf {
+				display: inline-block;
+				float: left;
+				width: 300px;
+				height: 100%;
+				border-right: solid 1px #e5e5e5;
+				position: relative;
+			}
+			
+			.order-inf .time {
+				display: inline-block;
+				width: 799px;
+				height: 100%;
+				float: left;
+			}
+			
+			.inf-content {
+				font: 12px/50px "微软雅黑";
+				color: #666666;
+				background-color: #fafafa;
+			}
+			
+			.inf-content span {
+				padding-left: 18px;
+			}
+			
+			.inf-title {
+				border-bottom: solid 1px #e5e5e5;
+				line-height: 36px;
+				height: 36px;
+				width: 100%;
+				background-color: #f4f4f4;
+			}
+			
+			.inf-title span {
+				position: absolute;
+				left: 20px;
+			}
+			
+			.inf {
+				position: relative;
+			}
+			
+			.inf font {
+				display: inline-block;
+				/*text-align: right;*/
+				height: 100%;
+				width: 64%;
+			}
+			
+			.inf-content div {
+				height: 50px;
+			}
+			
+			.address {
+				font: 12px "微软雅黑";
+				position: relative;
+			}
+			
+			.addspan {
+				position: absolute;
+				left: 0px;
+				top: 0;
+			}
+			
+			.addcolorp {
+				color: #333333;
+			}
+			
+			.rightp {
+				position: absolute;
+				right: 20px;
+				top: 0;
+			}
+			
+			.inf-content .line {
+				margin: 0 auto;
+				height: 0px;
+				width: 260px;
+				border: 0;
+				border-bottom: dashed 1px #eaeaea;
+			}
+			
+			.time {
+				position: relative;
+			}
+			
+			.time-title {
+				line-height: 36px;
+				height: 36px;
+				width: 100%;
+				background-color: white;
+				border-bottom: solid 1px #e5e5e5;
+			}
+			
+			.time-title span {
+				position: absolute;
+				left: 20px;
+			}
+			
+			.time-content p {
+				padding: 6px 20px;
+				font: 12px "微软雅黑";
+			}
+			
+			.order-detail {
+				width: 100%;
+				margin-top: 32px;
+				border: solid 1px #e5e5e5;
+			}
+			
+			.detail-title {
+				width: 100%;
+				height: 40px;
+				border-bottom: solid 1px #e5e5e5;
+				background-color: #f8f8f8;
+				font: 12px/40px "微软雅黑";
+				color: #333333;
+				position: relative;
+			}
+			
+			.com {
+				position: absolute;
+				left: 28px;
+			}
+			
+			.price {
+				position: absolute;
+				left: 368px;
+			}
+			
+			.dis {
+				position: absolute;
+				left: 460px;
+			}
+			
+			.num {
+				position: absolute;
+				left: 592px;
+			}
+			
+			.pay {
+				position: absolute;
+				left: 716px;
+			}
+			
+			.arr {
+				position: absolute;
+				left: 854px;
+			}
+			
+			.no {
+				position: absolute;
+				left: 976px;
+			}
+			
+			.ser {
+				width: 100%;
+				height: 134px;
+				position: relative;
+				font:14px "微软雅黑";
+				
+			}
+			
+			.ser img {
+				position: absolute;
+				top: 50%;
+				left: 12px;
+				transform: translateY(-50%);
+			}
+			
+			.ser-name {
+				position: absolute;
+				top: 26px;
+				left: 112px;
+				width: 240px;
+				color: #333333;
+				font:12px "微软雅黑";
+			}
+			
+			.ser-color {
+				position: absolute;
+				top: 80px;
+				left: 112px;
+				color: #666666;
+				font:12px "微软雅黑";
+			}
+			
+			.ser-size {
+				position: absolute;
+				top: 80px;
+				left: 224px;
+				color: #666666;
+				font:12px "微软雅黑";
+			}
+			
+			.ser-price {
+				position: absolute;
+				top: 50px;
+				left: 368px;
+				color: #c22820;
+			}
+			
+			.ser-dis {
+				position: absolute;
+				top: 50px;
+				left: 460px;
+				color: #999999;
+			}
+			
+			.ser-num {
+				position: absolute;
+				left: 592px;
+				top: 50px;
+				color: #999999;
+			}
+			
+			.ser-pay {
+				position: absolute;
+				left: 716px;
+				top: 50px;
+				color: #c22820;
+			}
+			
+			.ser-arr {
+				position: absolute;
+				left: 854px;
+				top: 50px;
+				color: #666666;
+			}
+			
+			.ser-no {
+				position: absolute;
+				left: 976px;
+				top: 50px;
+				color: #666666;
+			}
+			
+			.ser-line {
+				width: 1050px;
+				height: 0;
+				border-bottom: solid 1px #e5e5e5;
+				margin: 0 auto;
+			}
+			
+			.order-price {
+				height: 245px;
+				width: 100%;
+				margin-top: 16px;
+				background-color: #fafafa;
+				position: relative;
+			}
+			
+			.resco {
+				position: absolute;
+				left: 26px;
+				top: 26px;
+				font: 12px "微软雅黑";
+			}
+			
+			.resco span {
+				color: #333333;
+			}
+			
+			.resco font {
+				color: #999999;
+				font: 14px "微软雅黑";
+			}
+			
+			.order-price p {
+				font: 12px "微软雅黑";
+				padding: 16px;
+				position: relative;
+			}
+			
+			.order-price .firstp {
+				padding-top: 24px;
+			}
+			
+			.order-price p span {
+				position: absolute;
+				right: 164px;
+				color: #333333;
+			}
+			
+			.order-price p font {
+				position: absolute;
+				right: 32px;
+				color: #999999;
+			}
+			
+			.order-price .total span {
+				color: #333333;
+				font: 18px "微软雅黑";
+			}
+			
+			.order-price .total font {
+				font: 18px "微软雅黑";
+				color: #ff584f;
+			}
