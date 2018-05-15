@@ -1,0 +1,164 @@
+.header li:nth-child(4) a {
+	font-size: 14px;
+	padding-bottom: 8px;
+	color: #00a1ff;
+	border-bottom: 1px solid #00a1ff;
+}
+.box {
+	background: #fff;
+}
+
+/*顶部图片开始*/
+.top_img{
+	width: 100%;
+	height: 560px;
+	background: url(../img/join/top.jpg) no-repeat center 0;
+}
+/*顶部图片结束*/
+
+/*中心内容开始*/
+.join-content {
+	margin-top: 30px;
+}
+.join-left {
+	width: 300px;
+	padding: 20px 20px 50px;
+	background: #f8f8f8;
+	float: left;
+}
+.join-left .join-left-top {
+	height: 35px;
+	color: #333333;
+	font-size: 14px;
+	border-bottom: 1px solid #e5e5e5;
+	margin-bottom: 20px;
+}
+.join-left .join-left-top a {
+	color: #00a1ff;
+	float: right;
+}
+.join-left .click {
+	float: left;
+	width: 138px;
+	height: 58px;
+	margin: 0 20px 15px 0;
+		border-radius: 6px;
+}
+.join-left .no {
+	margin-right: 0;
+}
+.join-left .click:last-child {
+	width: 77px;
+	background: #fff url(../img/join/join_06.jpg) no-repeat 30px center;
+	color: #4dafff;
+	font-size: 12px;
+	line-height: 58px;
+	padding-left: 61px;
+}
+.join-right {
+	width: 830px;
+	padding-bottom: 30px;
+	float: right;
+}
+.join-right .join-search {
+	height: 50px;
+	border: 1px solid #00a1ff;
+}
+.join-right .join-search input[type=text] {
+	width: 678px;
+	line-height: 50px;
+	border: 0;
+	padding-left: 20px;
+}
+.join-right .join-search input[type=text]:focus {
+	outline: 0;
+}
+.join-right .join-search input[type=submit] {
+	width: 125px;
+	height: 50px;
+	background: #00a1ff url(../img/join/join_search.jpg) no-repeat 76px center;
+	border: 0;
+	float: right;
+	color: #fff;
+	font-size: 14px;
+	padding-right: 30px;
+	cursor: pointer;
+}
+.join-right .join-right-header {
+	margin-top: 35px;
+	height: 50px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.join-right .join-right-header ul li {
+	font-size: 14px;
+	margin: 0 20px;
+	float: left;
+	line-height: 50px;
+}
+.join-right .join-right-header ul li:first-child {
+	border-bottom: solid 2px #00a1ff;
+}
+.join-right .join-right-header ul li a {
+	color: #333333;
+}
+.join-right .join-right-header ul li:hover {
+	border-bottom: solid 2px #00a1ff;
+}
+.join-right .join-message li{
+	margin-top: 35px;
+	padding-bottom: 32px;
+	border-bottom: 1px dashed #eee;
+}
+.join-right .join-message li p {
+	width: 450px;
+	line-height: 36px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #00a1ff;
+	float: left;
+}
+.join-right .join-message li .p1 span {
+	color: #ff5e5e;
+	font-size: 16px;
+	font-weight: normal;
+	
+}
+.join-right .join-message li .p2 {
+	width: 220px;
+}
+.join-right .join-message li .p2 a {
+	color: #666666;
+	font-size: 12px;
+	padding: 8px 10px;
+	background: #eee;
+	margin-right: 11px;
+}
+.join-right .join-message li img {
+	float: right;
+	border: 1px solid #eee;
+	border-radius: 8px;
+	margin-top: 8px;
+}
+.join-right .join-page {
+	margin-top: 45px;
+}
+.join-right .join-page li {
+	float: left;
+	width: 28px;
+	line-height: 28px;
+	border: 1px solid #eee;
+	margin-right: 15px;
+	text-align: center;
+}
+.join-right .join-page li:first-child, .join-right .join-page li:last-child {
+	background: #f8f8f8;
+	width: 63px;
+}
+.join-right .join-page li a {
+	color: #666;
+	font-size: 12px;
+}
+/*中心内容结束*/
+.foot-logo {
+	background: #fff url(../img/project/logowhite.jpg) no-repeat center 30%;
+}

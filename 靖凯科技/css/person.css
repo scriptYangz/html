@@ -1,0 +1,346 @@
+body {
+	background: #f8f8f8;
+}
+.box {
+	background: #fff;
+}
+.header li:nth-child(2) a {
+	font-size: 14px;
+	padding-bottom: 8px;
+	color: #00a1ff;
+	border-bottom: 1px solid #00a1ff;
+}
+
+/*顶部图片开始*/
+.top {
+	border-radius: 6px;
+	margin-top: 30px;
+}
+/*顶部图片结束*/
+
+/*课程中心开始*/
+.course .course-header {
+	color: #333333;
+	font-size: 20px;
+	line-height: 80px;
+}
+.course .course-header span {
+	color: #dddddd;
+	font-weight: bold;
+	margin-left: 20px;
+}
+.course .course-header a {
+	color: #00a0e9;
+	font-size: 14px;
+	float: right;
+}
+.course-content {
+	background: #fff;
+	margin-bottom: 30px;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+	border-radius: 8px;
+}
+.course-content img:first-child {
+	float: left;
+	border-radius: 8px 0 0 8px;
+}
+.course-content .course-content-click {
+	float: left;
+	width: 320px;
+	height: 320px;
+	background: #fff4ec;
+}
+.course-content .change {
+	background: #eef9f5;
+}
+.course-content-click ul li {
+	width: 72px;
+	color: #ff7344;
+	font-size: 13px;
+	text-align: center;
+	float: left;
+	margin: 40px 0 0 65px;
+}
+.course-content .change ul li {
+	color: #49be94;
+}
+.course-content-click ul li a {
+	display: block;
+	width: 70px;
+	height: 70px;
+	background: #fff url(../img/person/course1_02.jpg) no-repeat center;
+	border-radius: 50%;
+	margin-bottom: 16px;
+}
+.course-content-click ul li:nth-child(2) a {
+	background: #fff url(../img/person/course1_03.jpg) no-repeat center;
+}
+.course-content-click ul li:nth-child(3) a {
+	background: #fff url(../img/person/course1_04.jpg) no-repeat center;
+}
+.course-content-click ul li:last-child a {
+	background: #fff url(../img/person/course1_05.jpg) no-repeat center;
+}
+.course-content-list {
+	float: left;
+	line-height: 30px;
+	margin-left: 35px;
+	padding-top: 40px;
+}
+.course-content-list img {
+	margin: 15px 10px 0;
+}
+.course-content-list a {
+	color: #666666;
+	font-size: 12px;
+	margin-right: 30px;
+}
+.course-content-list a:last-child {
+	color: #cccccc;
+	margin-right: 0px;
+}
+.course-content-list a:hover {
+	color: #00A0E9;
+}
+.course-content .change ul li a {
+	background: #fff url(../img/person/course2_02.jpg) no-repeat center;
+}
+.course-content .change ul li:nth-child(2) a {
+	background: #fff url(../img/person/course2_03.jpg) no-repeat center;
+}
+.course-content .change ul li:nth-child(3) a {
+	background: #fff url(../img/person/course2_04.jpg) no-repeat center;
+}
+.course-content .change ul li:last-child a {
+	background: #fff url(../img/person/course2_05.jpg) no-repeat center;
+}
+/*课程中心开始*/
+
+/*师资团队开始*/
+.team {
+	height: 1145px;
+	background: url(../img/person/team_bg.jpg) no-repeat center 0;
+	overflow: hidden;
+}
+.team-header {
+	height: 100px;
+	padding-top: 45px;
+}
+.team-header p {
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	line-height: 35px;
+}
+.team-header p:last-child {
+	font-weight: bold;
+}
+.team-content {
+	background: #fff;
+	padding: 55px 0 30px 0;
+	border-radius: 10px;
+}
+.team_00 {
+	float: left;
+	height: 390px;
+	border-right: 1px dashed #e5e5e5;
+	border-bottom: 1px dashed #e5e5e5;
+}
+.team-content .team_01 {
+	width: 250px;
+	margin-left: 82px;
+	padding-right: 71px;
+}
+.team-content .team_01 img {
+	margin-left: 75px;	
+}
+.team-content .team_00 a {
+	display: block;
+	font-size: 14px;
+	color: #fff;
+	width: 89px;
+	line-height: 30px;
+	background: #00a1ff;
+	border-radius: 6px;
+	text-align: center;
+	margin: 15px 0 0 80px;
+}
+.team-content .team_01 a {
+	margin: 15px 0 0 80px;
+}
+.team-content .p1 {
+	color: #00a1ff;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 13px;
+	line-height: 14px;
+}
+.team-content .p2 {
+	color: #666666;
+	font-size: 12px;
+	text-indent: 1em;
+	margin-top: 20px;
+	line-height: 14px;
+}
+.team-content .team_02 {
+	width: 290px;
+	padding: 0 50px 0;
+}
+.team-content .team_02 img {
+	margin-left: 93px;	
+}
+.team-content .team_02 a {
+	margin: 15px 0 0 100px;
+}
+.team-content .team_03 {
+	width: 276px;
+	padding-left: 66px;
+	border-right: 0;
+}
+.team-content .team_03 img {
+	margin-left: 85px;	
+}
+.team-content .team_03 a {
+	margin: 15px 0 0 92px;
+}
+.team-content .team_change {
+	padding-top: 55px;
+	border-bottom: 0;
+}
+/*师资团队结束*/
+
+/*就业喜报开始*/
+.work {
+	padding-bottom: 50px;
+}
+.work-left {
+	float: left;
+	width: 800px;
+}
+.work .work-header {
+	line-height: 90px;
+	color: #333333;
+	font-size: 20px;
+}
+.work .work-header span {
+	color: #dddddd;
+	font-weight: bold;
+	margin-left: 20px;
+}
+.work .work-header a {
+	color: #00a0e9;
+	font-size: 14px;
+	float: right;
+}
+.left-content {
+	height: 720px;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+	overflow-y: scroll;
+	overflow-x: visible;
+	border-radius: 0 0 8px 8px;
+}
+.left-content::-webkit-scrollbar {
+ 	width: 4px;
+}
+.left-content::-webkit-scrollbar-thumb {
+	background-color:#ddd;
+	border-radius:2em;
+}
+
+.table-header {
+	background: #43c79e;
+	height: 46px;
+	border-radius: 8px 8px 0 0;
+}
+.table-header li {
+	float: left;
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	line-height: 46px;
+}
+.table01 {
+	width: 147px;
+	text-align: center;
+}
+.table02 {
+	width: 231px;
+}
+.table03 {
+	width: 101px;
+}
+.table04 {
+	width: 175px;
+}
+table {
+
+}
+table tr {
+	height: 55px;
+	color: #666666;
+	font-size: 14px;
+}
+table tr:nth-child(even) {
+	background: #f5fdfa;
+}
+.work-right {
+	width: 390px;
+	float: right;
+}
+.work-right ul li {
+	background: #fff;
+	position: relative;
+	height: 230px;
+	border-radius: 8px;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+	margin-bottom: 15px;
+}
+.work-right ul li .fly {
+	position: absolute;
+}
+.work-right ul li img:first-child{
+	float: left;
+	margin: 33px 0 0 25px;
+	border-radius: 50%;
+}
+.work-right ul li img:last-child {
+	top: 28px;
+	right: 33px;
+}
+.work-right ul li p {
+	float: left;
+}
+.work-right ul li .p1 {
+	margin: 35px 0 0 15px;
+	color: #666666;
+	font-size: 14px;
+	font-weight: bold;
+}
+.work-right ul li .p2 {
+	left: 110px;
+	top: 63px;
+	color: #999999;
+	font-size: 12px;
+}
+.work-right ul li .p3 {
+	top: 81px;
+	right: 24px;
+	color: #cccccc;
+	font-size: 12px;
+	font-weight: bold;
+}
+.work-right ul li .p4 {
+	top: 120px;
+	left: 20px;
+	background: #f1f6f9;
+	width: 302px;
+	height: 50px;
+	color: #666666;
+	font-size: 12px;
+	padding: 20px;
+	border-radius: 6px;
+}
+/*就业喜报结束*/
+.foot-logo {
+	background: #fff url(../img/project/logowhite.jpg) no-repeat center 30%;
+}

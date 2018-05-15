@@ -1,0 +1,259 @@
+.header li:last-child a {
+	font-size: 14px;
+	padding-bottom: 8px;
+	color: #00a1ff;
+	border-bottom: 1px solid #00a1ff;
+}
+.box {
+	background: #fff;
+}
+/*简介开始*/
+.brief {
+	background: url(../img/about/bg.jpg) no-repeat center 0;
+	padding-bottom: 120px;
+}
+.brief-content img {
+	margin: 173px 70px 0;
+	border-radius: 6px;
+}
+.brief-content p {
+	width: 1025px;
+	margin: 20px auto;
+	font-size: 14px;
+	text-indent: 1em;
+}
+.brief-content .p1 {
+	margin-top: 40px;
+}
+.brief-content p span {
+	color: #00a1ff;
+}
+/*简介结束*/
+
+/*主要内容开始*/
+.about-content {
+	background: #626262;
+	border: 1px solid #626262;
+	padding-bottom: 58px;
+}
+.about-header {
+	margin-top: 45px;
+	height: 85px;
+	line-height: 85px;
+	font-size: 20px;
+	color: #fff;
+	position: relative;
+}
+.about-header .span1 {
+	font-weight: bold;
+	color: #dddddd;
+	margin-left: 15px;
+}
+.about-header .span2 {
+	color: #fff;
+	font-size: 12px;
+}
+.about-header .page {
+	position: absolute;
+	right: 0px;
+	top: 10px;
+}
+.about-header .page .span2 {
+	position: relative;
+	bottom: 10px;	
+}
+
+/*发展历史开始*/
+.history-img img {
+	margin-left: 6px;
+	border-radius: 6px;
+}
+.history-img img:first-child {
+	margin: 0;
+}
+/*发展历史结束*/
+
+/*公司荣誉开始*/
+.honour img {
+	margin: 0 24px;
+	border-radius: 6px;
+}
+.honour img:first-child {
+	margin-left: 0;
+}
+.honour img:last-child {
+	margin-right: 0;
+}
+/*公司荣誉结束*/
+/*主要内容结束*/
+
+/*高校合作开始*/
+.school {
+	padding-bottom: 45px;
+}
+.school-header {
+	margin-top: 45px;
+	height: 85px;
+	line-height: 85px;
+	font-size: 20px;
+	color: #666666;
+}
+.school-header span {
+	font-weight: bold;
+	color: #dddddd;
+	margin-left: 15px;
+}
+.school-images {
+	float: left;
+	margin-left: 9px;
+}
+.school-images img {
+	margin-bottom: 10px;
+	border-radius: 6px;
+}
+.school-images:first-child {
+	margin: 0;
+}
+.images1 {
+	width: 495px;
+}
+.images2 {
+	width: 362px;
+	position: relative;
+}
+.images2 .text {
+	width: 360px;
+	height: 100px;
+	position: absolute;
+	top: 288px;
+	background: #00b7ee;
+	border-radius: 0 0 6px 6px;
+}
+.images2 .text p {
+	padding-left: 28px;
+	color: #fff;
+}
+.images2 .text .p1 {
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 27px;
+}
+.images2 .text .p2 {
+	font-size: 12px;
+	margin-top: 15px;
+}
+.images3 {
+	width: 315px;
+}
+/*高校合作结束*/
+
+/*招聘信息开始*/
+.recruit {
+	background: #f4f4f4;
+	padding-bottom: 40px;
+}
+.recruit-header {
+	height: 85px;
+	line-height: 85px;
+	color: #666666;
+	font-size: 20px;
+}
+.recruit-header span {
+	font-weight: bold;
+	color: #dddddd;
+	margin-left: 15px;
+}
+.recruit ul {
+	float: left;
+	width: 200px;
+	height: 400px;
+	background: #fff;
+}
+.recruit ul li {
+	width: 110px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin: 0 auto 15px;
+	font-size: 14px;
+}
+.recruit ul li a {
+	display: block;
+	width: 110px;
+	height: 40px;
+	color: #333333;
+	border-radius: 20px;
+}
+.recruit ul li:first-child {
+	width: 100%;
+	height: 85px;
+	line-height: 85px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #666666;
+	margin: 0;
+	text-align: center;
+}
+.recruit ul li a:hover {
+	background: #00b7ee;
+	color: #fff;
+}
+.recruit .message {
+	width: 970px;
+	height: 580px;
+	background: #fff;
+	float: right;
+	border-radius: 6px;
+	box-shadow: 0 2px 2px rgba(0,0,0,.2);
+}
+.recruit .message .message-header {
+	width: 900px;
+	height: 85px;
+	margin: 0 auto;
+	border-bottom: 1px solid #eeeeee;
+	line-height: 85px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #666666;
+}
+.recruit .message .message-header input {
+	border: 0;
+	width: 105px;
+	height: 35px;
+	background: #69d982;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 6px;
+	float: right;
+	margin-top: 30px;
+	
+}
+.recruit .message .message-header input:hover {
+	cursor: pointer
+}
+.recruit-message {
+	width: 900px;
+	margin: 0 auto;
+}
+.recruit-message p {
+	width: 210px;
+	color: #333333;
+	font-size: 14px;
+	margin-top: 30px;
+	display: inline-block;
+}
+.recruit-message2 p {
+	margin-top: 40px;
+	width: 100%;
+	color: #999999;
+	
+}
+.recruit-message2 p span {
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333333;
+	margin-bottom: 20px;
+}
+/*招聘信息结束*/

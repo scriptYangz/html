@@ -1,0 +1,228 @@
+.header li:nth-child(5) a {
+	font-size: 14px;
+	padding-bottom: 8px;
+	color: #00a1ff;
+	border-bottom: 1px solid #00a1ff;
+}
+.box {
+	background: #fff;
+}
+body {
+	background: #f4f4f4;
+}
+
+/*顶部图片*/
+.science-img {
+	margin-top: 20px;
+}
+.science-img img {
+	border-radius: 6px;
+}
+/*中心内容左边*/
+.science-content {
+	margin-top: 16px;
+	padding-bottom: 80px;
+}
+.science-content .science-left {
+	width: 820px;
+	float: left;
+}
+.sleft-header ul {
+	margin-bottom: 15px;
+}
+.sleft-header ul img {
+	float: right;
+	margin-top: 5px;
+}
+.science-left .sleft-header ul li{
+	width: 100px;
+	margin-right: 16px;
+	text-align: center;
+	float: left;
+	background: #fff;
+	border-radius: 8px;
+}
+.sleft-header ul li a {
+	display: block;
+	width: 98px;
+	color: #222;
+	font-size: 14px;
+	line-height: 40px;
+	border-radius: 8px;
+	border: 1px solid #f4f4f4;
+}
+.sleft-header ul li a:hover {
+	color: #00a1ff;
+	border: 1px solid #0da5ea;
+}
+.sleft-body {
+	padding: 30px;
+	background: #fff;
+	border-radius: 8px;
+	float: left;
+	margin-bottom: 30px;
+}
+.sleft-body .p1 {
+	width: 60%;
+	float: left;
+	color: #333;
+	font-size: 18px;
+	line-height: 32px;
+	margin-top: 25px;
+}
+.sleft-body .p1 a {
+	color: #333;
+}
+.sleft-body .p1 span {
+	color: #999;
+	font-size: 14px;
+}
+.sleft-body .p1 span:last-child {
+	margin-left: 25px;
+}
+.sleft-body .p2 {
+	color: #999;
+	font-size: 14px;
+	float: right;
+	margin-top: 30px;
+	background: url(../img/science/eyes.jpg) no-repeat center 0;
+	padding-top: 30px;
+	text-align: center;
+}
+.science-left .science-page {
+	width: 412px;
+	margin: 0 auto;
+}
+.science-left .science-page a {
+	float: left;
+	width: 28px;
+	line-height: 28px;
+	color: #666;
+	font-size: 12px;
+	background: #fff;
+	text-align: center;
+	margin-right: 12px;
+}
+.science-page a:nth-child(2) {
+	color: #fff;
+	background: #00a0e9;
+}
+.science-page a:first-child, .science-page a:last-child {
+	width: 74px;
+}
+.science-page a:hover {
+	color: #fff;
+	background: #00a0e9;
+}
+/*中心内容右边*/
+.science-right {
+	width: 350px;
+	float: right;
+}
+.science-right div {
+	background: #fff;
+}
+.sright_one {
+	border-radius: 8px;
+	position: relative;
+}
+.sright_one .title {
+	position: absolute;
+	color: #f4f4f4;
+	font-size: 12px;
+	text-align: center;
+	width: 100%;
+	line-height: 34px;
+	background: rgba(0,0,0,0.3);
+	top: 165px;
+}
+.sright_one ul {
+	margin-top: 5px;
+	padding-bottom: 20px;
+}
+.sright_one ul li {
+	line-height: 30px;
+	position: relative;
+	padding-left: 40px;
+}
+.sright_one ul li img {
+	position: absolute;
+	left: 20px;
+	top: 15px;
+}
+.sright_one ul li a {
+	color: #666;
+	font-size: 12px;
+}
+.sright_one ul li a:last-child {
+	float: right;
+	color: #ccc;
+	margin-right: 23px;
+}
+.sright_one ul li a:hover {
+	color: #00A0E9;
+}
+.sright_two {
+	padding: 0 30px 30px;
+	border-radius: 8px;
+}
+.sright_two .two-header {
+	margin-top: 18px;
+	line-height: 80px;
+	font-size: 18px;
+	color: #333;
+}
+.sright_two .two-header img {
+	float: right;
+	margin-top: 20px;
+}
+.sright_two ul li {
+	padding: 10px 0;
+	border-bottom: 1px dashed #e5e5e5;
+}
+.sright_two ul li img {
+	float: left;
+	border-radius: 25px;
+}
+.sright_two ul li a {
+	float: right;
+	color: #00a1ff;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.sright-p1 {
+	float: left;
+	margin-left: 20px;
+	color: #666;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 25px;
+}
+.sright-p1 span:first-child {
+	color: #999;
+	font-size: 12px;
+	margin-left: 15px;
+}
+.sright-p1 span:last-child {
+	color: #666;
+	font-weight: normal;
+}
+.science-right .sright_three {
+	margin-top: 20px;
+	height: 457px;
+	width: 350px;
+	border-radius: 8px;
+	background: url(../img/science/sright_ewm.jpg) no-repeat;
+}
+.sright_three p {
+	line-height: 20px;
+	color: #bbbbbb;
+	font-size: 14px;
+	padding-left: 12px;
+	border-left: 3px solid #00a0e9;
+	float: left;
+	margin: 170px 0 0 58px;
+}
+.sright_three p span {
+	color: #00A0E9;
+}

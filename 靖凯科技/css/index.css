@@ -1,0 +1,401 @@
+.header li:first-child a {
+	font-size: 14px;
+	padding-bottom: 8px;
+	color: #00a1ff;
+	border-bottom: 1px solid #00a1ff;
+}
+/*轮播图开始*/
+.slide {
+	margin-top: 36px;
+	position: relative;
+	border-radius: 6px;
+}
+.slide img {
+	border-radius: 6px;
+}
+.slide .ul1 {
+	width: 288px;
+	height: 480px;
+	background: rgba(0,0,0,.4);
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-radius: 6px 0 0 6px;
+}
+.slide .ul1 li {
+	width: 240px;
+	height: 50px;
+	border-bottom: 1px solid #41454b;
+	margin: 0 24px;
+	line-height: 50px;
+	position: relative;
+}
+.slide .ul1 li:first-child {
+	margin-top: 10px;
+}
+.slide .ul1 li a {
+	font-size: 13px;
+	color: #c3c4c5;
+}
+.slide .ul1 li a:hover {
+	color: #fff;
+}
+.slide .ul1 li a:last-child {
+	float: right;
+}
+.menu {
+	height: 140px;
+	width: 240px;
+	position: absolute;
+	left: 0;
+	top: 320px;
+	margin-left: 24px;
+}
+.menu a {
+	position: relative;
+	display: inline-block;
+	height: 50px;
+	width: 60px;
+	font-size: 12px;
+	color: #9a9c9e;
+	margin-top: 20px;
+}
+.menu a:hover {
+	color: white;
+}
+.menu a:nth-child(2),.menu a:nth-child(5) {
+	margin: 0 25px;
+}
+.menu a img {
+	position: relative;
+	left: 15px;
+}
+.menu span {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.circle {
+	width: 100px;
+	height: 20px;
+	position: absolute;
+	right: 40px;
+	top: 440px;
+}
+.circle ul li {
+	width: 12px;
+	height: 12px;
+	margin: 0 6px;
+	background: #9ca0a6;
+	float: left;
+	border-radius: 50%;
+}
+.circle ul li:hover {
+	background: white;
+	cursor: pointer
+}
+/*轮播图结束*/
+
+/*课程开始*/
+.course {
+	margin-top: 20px;
+	padding-bottom: 28px;
+}
+.course a {
+	margin-right: 13px;
+	border-radius: 10px;
+}
+.course a:last-child {
+	margin: 0;
+}
+/*课程结束*/
+
+/*中心内容开始*/
+.content {
+	background-color: #f4f4f4;
+	padding-bottom: 57px;
+}
+/*推荐内容开始*/
+.content-header {
+	height: 75px;
+	font-size: 20px;
+	line-height: 75px;
+}
+.content-header span {
+	color: #dddddd;
+	font-weight: bold;
+	padding-left: 18px;
+}
+.content-header a {
+	font-size: 14px;
+	color: #3cacea;
+	float: right;
+}
+.recommend-content {
+	width: 386px;
+	height: 330px;
+	background: #fff;
+	box-shadow: 0 2px 3px rgba(0,0,0,.3);
+	border-radius: 6px;
+	float: left;
+	margin-right: 21px;
+}
+.recommend-content:last-child {
+	margin: 0;
+}
+.recommend-content img {
+	border-radius: 6px 6px 0 0;
+}
+.recommend-content a img {
+	margin: 3px 10px;
+}
+.recommend-content a {
+	display: block;
+	margin: 15px 0;
+	color: #8a8a8a;
+	font-size: 13px;
+}
+.recommend-content a span {
+	float: right;
+	margin-right: 25px;
+	color: #dddddd;
+}
+.recommend-content a:hover {
+	color: #00A0E9;
+}
+/*推荐内容结束*/
+
+/*项目展示开始*/
+.open-content {
+	width: 288px;
+	background: #fff;
+	box-shadow: 0 2px 2px rgba(0,0,0,.2);
+	border-radius: 6px;
+	float: left;
+	margin-right: 15px;
+	overflow: hidden;
+}
+.open-content:last-child {
+	margin: 0;
+}
+.open-content img {
+	border-radius: 6px 6px 0 0;
+}
+.open-content p {
+	text-align: center;
+	width: 230px;
+	margin: 0 auto;
+}
+.open-content .p1 {
+	padding: 10px 0;
+	border-bottom: 1px solid #eeeeee;
+}
+.open-content .p1 a {
+	font-size: 14px;
+	color: #999999;
+}
+.open-content .p1 a:hover {
+	color: #00A1FF;
+}
+.open-content .p2 {
+	font-size: 12px;
+	color: #d0d0d0;
+	padding: 15px 0;
+}
+/*项目展示结束*/
+
+/*开源故事开始*/
+.source-content {
+	width: 387px;
+	background: #fff;
+	position: relative;
+	border-radius: 6px;
+	box-shadow: 0 2px 2px rgba(0,0,0,.2);
+	float: left;
+	margin: 20px 18px 0 0;
+}
+.source-content:nth-child(3n) {
+	margin-right: 0;
+}
+.source-content img:first-child {
+	float: left;
+	margin: 30px 20px 0 25px;
+	border-radius: 50%;
+}
+.source-content .p1 {
+	font-size: 14px;
+	font-weight: bold;
+	float: left;
+	margin-top: 37px;
+	color: #7f7f7f;
+}
+.source-content .p2 {
+	font-size: 12px;
+	color: #b6b6b6;
+	line-height: 20px;
+	position: absolute;
+	top: 65px;
+	left: 112px;
+}
+.source-content .p3 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #d9d9d9;
+	position: absolute;
+	right: 25px;
+	top: 80px;
+}
+.source-content img:last-child {
+	position: absolute;
+	top: 36px;
+	right: 33px;
+}
+.source-content .p4 {
+	font-size: 12px;
+	width: 295px;
+	height: 45px;
+	padding: 20px 25px 25px;
+	float: left;
+	background: #f1f6f9;
+	margin: 20px;
+	border-radius: 6px;
+}
+/*开源故事结束*/
+
+/*中心活动开始*/
+.activity-practice {
+	border-radius: 6px;
+	box-shadow: 0 2px 2px rgba(0,0,0,.2);
+}
+.activity {
+	margin-top: 40px;
+	background: white;
+	border-radius: 6px 6px 0 0;
+}
+.activity-header {
+	height: 70px;
+	line-height: 70px;
+	color: #333333;
+	font-size: 20px;
+	padding-left: 25px;
+}
+.activity-header a{
+	font-size: 14px;
+	color: #3cacea;
+	float: right;
+	margin-right: 24px;
+}
+.activity img {
+	float: left;
+	margin-right: 10px;
+}
+.activity img:first-child {
+	margin-left: 25px;
+}
+/*中心活动结束*/
+
+/*实习环境开始*/
+.practice {
+	background: white;
+	border-radius: 0 0 6px 6px;
+}
+.practice img {
+	float: left;
+	margin-right: 10px;
+	padding-bottom: 34px;
+}
+.practice img:first-child {
+	margin-left: 25px;
+}
+/*实习环境结束*/
+
+/*开源技术开始*/
+.skill-header {
+	height: 110px;
+	line-height: 110px;
+	font-size: 20px;
+	color: #7a7a7a;
+	text-align: center;
+}
+.skill-content {
+	width: 370px;
+	height: 285px;
+	box-shadow: 0 2px 2px rgba(0,0,0,.2);
+	border-radius: 6px;
+	float: left;
+	margin: 0 13px;
+}
+.skill-content:first-child {
+	margin-left: 18px;
+}
+.skill-content p {
+	height: 40px;
+	line-height: 40px;
+	background: #448aca;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	padding-left: 40px;
+	position: relative;
+	border-radius: 6px 6px 0 0;
+}
+.skill-content:nth-child(2) p {
+	background: #5bb995;
+}
+.skill-content:nth-child(3) p {
+	background: #f8b551;
+}
+.skill-content p img {
+	position: absolute;
+	left: 15px;
+	top: 12px;
+}
+.skill-content a:hover {
+	color: #00A0E9;
+}
+.skill-content .all {
+	float: right;
+	color: #fff;
+	margin: 0 16px 0 0;
+}
+.skill-content a img {
+	margin: 3px 15px;
+}
+.skill-content a {
+	display: block;
+	margin: 11px 0;
+	color: #8a8a8a;
+	font-size: 13px;
+}
+.skill-content a span {
+	float: right;
+	margin-right: 15px;
+	color: #dddddd;
+}
+/*开源技术结束*/
+
+/*合作企业开始*/
+.cooperate {
+	padding-bottom: 60px;
+}
+.cooperate-header {
+	height: 120px;
+	text-align: center;
+	line-height: 120px;
+	font-size: 20px;
+	color: #7a7a7a;
+}
+.cooperate a {
+	width: 228px;
+	height: 88px;
+	display: block;
+	margin: 0 12px 24px;
+	float: left;
+	border: 2px dashed #eeeeee;
+	border-radius: 6px;
+}
+.cooperate .a-left {
+	margin-left: 75px;
+}
+/*合作企业结束*/
+
